@@ -1,0 +1,212 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+/* header style start */
+header{
+    padding-bottom: 40px;
+}
+.img-mbl{
+	width: 200px;
+
+}
+.navbar{
+	justify-content: center;
+}
+.sub-menu{
+	justify-content: center;
+}
+
+.menu-content {
+	padding-top: 20px;
+}
+.menu-content h5{
+  font-size: 24px;
+
+}
+.menu-content h1{
+  font-size: 50px;
+  
+}
+/* header style end */
+
+/* feature style start */
+.feature {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}	
+
+
+/* feature style end */
+
+/* about style start */
+.about {
+    padding-top: 40px;
+   
+}
+.about-row {
+    flex-direction: column-reverse;
+}
+
+.about-content h3 {
+    font-size: 16px;
+}
+.about-content {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}	
+
+/* about style end */
+
+/* testimonial style start */
+.testimonial {
+    padding-top: 30px;
+    padding-bottom: 65px;
+    
+}
+/* testimonial style end */
+
+/* address style start  */
+.address {
+    padding: 40px 0;
+}
+.a-title {
+	margin-bottom: 20px;
+}
+.a-title p {
+    margin-bottom: 0; 
+}
+.single-item{
+	margin-top: 30px;
+}
+/* address style end */
+
+/* footer style start */
+.f-text p{
+	text-align: center;
+}
+/* footer style end */
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* header style start */
+header{
+ 	padding-bottom: 40px;
+ 
+ }
+.navbar{
+	justify-content: center;
+}
+.sub-menu{
+	justify-content: center;
+}
+
+/* header style end */
+
+/* feature style start */
+.feature {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/* feature style end */
+
+/* about style start */
+.about {
+    padding: 40px 0;
+   
+}
+.about-row {
+    flex-direction: column-reverse;
+}
+
+.about-content {
+   margin: 20px 0; 
+}
+.a-title p {
+    margin-bottom: 20px;
+}
+/* about style end */
+
+/* address style start  */
+.address {
+    padding: 40px 0;
+}
+
+.single-item {
+	margin-top: 20px;
+    margin-bottom: 0; 
+}
+#mymap-display {
+	margin-bottom: 20px;
+	
+}
+/* address style end */
+
+/* footer style start */
+.f-text p{
+	text-align: center;
+}
+/* footer style end */
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/* header style start */
+header{
+    padding-bottom: 40px;
+}
+/* header style end */
+
+/* feature style start */
+.feature {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/* feature style end */
+
+/* about style start */
+.about {
+    padding: 40px 0;
+   
+}
+.about-content {
+   margin-top: 20px; 
+}
+.a-title p {
+    margin-bottom: 20px;
+}
+
+/* about style end */
+
+
+/* address style start  */
+.address {
+    padding: 40px 0;
+   
+}
+.add-content {
+    padding: 0; 
+    
+}
+.single-item {
+    margin-bottom: 0; 
+}
+#mymap-display {
+	margin-top: 20px;
+	padding-right: 20px;
+	
+}
+/* address style end */
+
+/* footer style start */
+.f-text p{
+	text-align: center;
+}	
+	
+/* footer style end */ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
